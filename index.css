@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1150px;
+    margin: auto;
+    box-shadow: 4px 4px 5px 5px gray;
+}
+
+header {
+    padding: 10px 20px;
+    width: 100%;
+    height: 30px;
+    top: 0;
+    position: relative;
+}
+
+#first {
+    background: url('./first.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin-top: -43px;
+}
+
+header nav {
+position: absolute;
+right: 50px;
+top: 30px;
+}
+
+ a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    margin-right: 18px;
+}
+
+#first div {
+    margin: 110px;
+    margin-left: 270px;
+    width: 380px;
+    font-size: 25px;
+}
+
+#first p {
+    font-size: 15px;
+}
+
+ button {
+    padding: 10px 15px;
+    margin-top: 5px;
+    background: #00ffff;
+    border: none;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+}
+#second{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+    background: url('./second.jpg') no-repeat;
+
+}
+#second div {
+    margin: 30px;
+    width: 400px;
+}
+
+#third {
+    padding: 30px;
+    background: url('./second.jpg') no-repeat;
+    background-size: cover;
+    background-position-y: -850px;
+    background-position-x: -0px;
+    height: 60vh;
+}
+
+#third div {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.row p {
+    width: 350px;
+    margin: 5px;
+}
+
+
+#fourth {
+    padding: 10px 40px;
+    background: url('./second.jpg') no-repeat;
+    background-size: cover;
+    background-position-y: -1450px;
+    background-position-x: 0px;
+    height: 60vh;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#fourth div {
+    width: 400px;
+    text-align: right;
+    margin-right: 150px;
+}
+
+#fi {
+    padding-top: 90px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    padding: 20px;
+
+}
+
+footer p {
+    margin: 10px;
+}
+
+footer h1 {
+    font-size: 70px;
+    position: absolute;
+    left: 380px;
+    top: 5px;
+}
+
+footer div {
+    margin-top: 40px;
+}
+
+footer q {
+    padding-right: 50px;
+}
